@@ -3,8 +3,9 @@
     --surface-color: #f0e8c2;
     --text-primary: #291b1a;
     --text-secondary: #573a37;
-    --text-on-bg: #f0e8c2
-
+    --text-on-bg: #f0e8c2;
+    font-family: 'Alice', serif;
+    line-height: 150%;
 }
 *{
     margin: 0;
@@ -15,6 +16,7 @@
 body{
     background-image: url(assets/bg-image.jpg) ;
     background-size: cover;
+    
 }
 #page{
     max-width: 800px;
@@ -23,4 +25,13 @@ body{
     color: var(--text-secondary);
     background-color: var(--surface-color);
     margin: 48px auto;
+}
+h1{
+    line-height: 140%;
+    font-size: 40px;
+    color: var(--text-primary);
+}
+h2{
+    font-size: 24px;
+    color: var(--text-primary);
 }
