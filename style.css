@@ -26,12 +26,29 @@ body{
     background-color: var(--surface-color);
     margin: 48px auto;
 }
+main{
+    padding: 24px;
+}
+section + section{
+    margin-top: 24px;
+}
+.about p + p{
+    margin-top: 12px;
+}
 h1{
     line-height: 140%;
     font-size: 40px;
     color: var(--text-primary);
+    margin-bottom: 4px;
+    line-height: 150%;
+
 }
 h2{
     font-size: 24px;
+    margin-bottom: 4px; 
+    line-height: 150%;
     color: var(--text-primary);
+}
+ul{
+    padding-left: 24px;
 }
